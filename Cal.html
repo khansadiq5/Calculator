@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Cal.css" />
+  </head>
+  <body>
+    <div class="body">
+    <div class="container">
+      <input type="text" placeholder="0" id="result">
+      <div class="row-1">
+        <button onclick="clrs()" style="font-size: 1.2rem; background-color: #d4d4d2">AC</button>
+        <button onclick="dle()" style="font-size: 1.2rem; background-color: #d4d4d2">DE</button>
+        <button onclick="display('%')" style="background-color: #d4d4d2">%</button>
+        <button onclick="display('/')" style="background-color: #ff9500; color: white">÷</button>
+      </div>
+      <div class="row-2">
+        <button onclick="display('7')" style="background-color: #505050; color: white;">7</button>
+        <button onclick="display('8')" style="background-color: #505050; color: white;">8</button>
+        <button onclick="display('9')" style="background-color: #505050; color: white;">9</button>
+        <button onclick="display('*')" style="background-color: #ff9500; color: white">x</button>
+      <div class="row-3">
+        <button onclick="display('6')" style="background-color: #505050; color: white;">6</button>
+        <button onclick="display('5')" style="background-color: #505050; color: white;">5</button>
+        <button onclick="display('4')" style="background-color: #505050; color: white;">4</button>
+        <button onclick="display('-')" style="background-color: #ff9500; color: white">-</button>
+      </div>
+      <div class="row-4">
+        <button onclick="display('1')" style="background-color: #505050; color: white;">1</button>
+        <button onclick="display('2')" style="background-color: #505050; color: white;">2</button>
+        <button onclick="display('3')" style="background-color: #505050; color: white;">3</button>
+        <button onclick="display('+')" style="background-color: #ff9500; color: white">+</button>
+      </div>
+      <div class="row-5">
+        <button onclick="display('0')" class="zero" style="background-color: #505050; color: white;">0</button>
+        <button onclick="display('.')" class="dote" style="background-color: #505050; color: white;">.</button>
+        <button onclick="calculate()"  class="equal" style="background-color: #ff9500; color: white">=</button>
+      </div>
+    </div>
+</div>
+<script src="Cal.js"></script>
+  </body>
+</html>
